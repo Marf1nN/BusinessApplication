@@ -2,9 +2,8 @@
 //  SecondViewController.swift
 //  BusinessApplication
 //
-//  Created by Aaron on 02/08/2016.
-//  Copyright © 2016 Aaron. All rights reserved.
-//
+//  Created by Vladyslav Filippov on 02/08/2016.
+
 
 import UIKit
 
@@ -13,6 +12,8 @@ class SecondViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
     }
 
     override func didReceiveMemoryWarning() {

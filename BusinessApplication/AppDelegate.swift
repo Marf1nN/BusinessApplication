@@ -2,9 +2,8 @@
 //  AppDelegate.swift
 //  BusinessApplication
 //
-//  Created by Aaron on 02/08/2016.
-//  Copyright © 2016 Aaron. All rights reserved.
-//
+//  Created by Vladyslav Filippov on 02/08/2016.
+
 
 import UIKit
 
@@ -14,8 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
         // Override point for customization after application launch.
+        
+        UINavigationBar.appearance().barTintColor = UIColor(red: 76/255, green: 147/255, blue: 91/255, alpha: 1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+        
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        
+        UITabBar.appearance().tintColor = UIColor(red: 76/255, green: 147/255, blue: 91/255, alpha: 1.0)
+        
         return true
     }
 

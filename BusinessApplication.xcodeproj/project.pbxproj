@@ -13,6 +13,18 @@
 		1269E6691D50C60D00F65CC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1269E6671D50C60D00F65CC7 /* Main.storyboard */; };
 		1269E66B1D50C60D00F65CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1269E66A1D50C60D00F65CC7 /* Assets.xcassets */; };
 		1269E66E1D50C60D00F65CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1269E66C1D50C60D00F65CC7 /* LaunchScreen.storyboard */; };
+		1269E6771D50E4E400F65CC7 /* ServicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269E6761D50E4E400F65CC7 /* ServicesTableViewController.swift */; };
+		1269E6791D50E4F000F65CC7 /* ServicesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269E6781D50E4F000F65CC7 /* ServicesTableViewCell.swift */; };
+		1269E67B1D50E4FC00F65CC7 /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269E67A1D50E4FC00F65CC7 /* ServicesViewController.swift */; };
+		1269E67E1D50F75D00F65CC7 /* PortfolioCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269E67D1D50F75D00F65CC7 /* PortfolioCollectionViewController.swift */; };
+		1269E6801D50F76E00F65CC7 /* PortfolioCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1269E67F1D50F76E00F65CC7 /* PortfolioCollectionViewCell.swift */; };
+		127E56661DBA696F008C028C /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E56651DBA696F008C028C /* EmailViewController.swift */; };
+		12C0728D1D5108B500C09CA4 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0728C1D5108B500C09CA4 /* ContactUsViewController.swift */; };
+		12C072901D51090E00C09CA4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C0728F1D51090E00C09CA4 /* MapKit.framework */; };
+		12C072941D51114300C09CA4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12C072931D51114300C09CA4 /* MessageUI.framework */; };
+		12C072971D521ACC00C09CA4 /* SocialTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C072961D521ACC00C09CA4 /* SocialTableViewController.swift */; };
+		12C072991D521AD800C09CA4 /* SocialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C072981D521AD800C09CA4 /* SocialTableViewCell.swift */; };
+		12C0729B1D521AE700C09CA4 /* SocialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0729A1D521AE700C09CA4 /* SocialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +36,18 @@
 		1269E66A1D50C60D00F65CC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1269E66D1D50C60D00F65CC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1269E66F1D50C60D00F65CC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1269E6761D50E4E400F65CC7 /* ServicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewController.swift; sourceTree = "<group>"; };
+		1269E6781D50E4F000F65CC7 /* ServicesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesTableViewCell.swift; sourceTree = "<group>"; };
+		1269E67A1D50E4FC00F65CC7 /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		1269E67D1D50F75D00F65CC7 /* PortfolioCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewController.swift; sourceTree = "<group>"; };
+		1269E67F1D50F76E00F65CC7 /* PortfolioCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortfolioCollectionViewCell.swift; sourceTree = "<group>"; };
+		127E56651DBA696F008C028C /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
+		12C0728C1D5108B500C09CA4 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		12C0728F1D51090E00C09CA4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		12C072931D51114300C09CA4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		12C072961D521ACC00C09CA4 /* SocialTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialTableViewController.swift; sourceTree = "<group>"; };
+		12C072981D521AD800C09CA4 /* SocialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialTableViewCell.swift; sourceTree = "<group>"; };
+		12C0729A1D521AE700C09CA4 /* SocialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12C072941D51114300C09CA4 /* MessageUI.framework in Frameworks */,
+				12C072901D51090E00C09CA4 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +68,7 @@
 			children = (
 				1269E6601D50C60D00F65CC7 /* BusinessApplication */,
 				1269E65F1D50C60D00F65CC7 /* Products */,
+				12C0728E1D51090E00C09CA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +86,63 @@
 				1269E6611D50C60D00F65CC7 /* AppDelegate.swift */,
 				1269E6631D50C60D00F65CC7 /* FirstViewController.swift */,
 				1269E6651D50C60D00F65CC7 /* SecondViewController.swift */,
+				1269E6751D50E4B900F65CC7 /* Services */,
+				1269E67C1D50F73D00F65CC7 /* Portfolio */,
+				12C0728B1D51089E00C09CA4 /* ContactUs */,
+				12C072951D521AB800C09CA4 /* Social */,
 				1269E6671D50C60D00F65CC7 /* Main.storyboard */,
 				1269E66A1D50C60D00F65CC7 /* Assets.xcassets */,
 				1269E66C1D50C60D00F65CC7 /* LaunchScreen.storyboard */,
 				1269E66F1D50C60D00F65CC7 /* Info.plist */,
 			);
 			path = BusinessApplication;
+			sourceTree = "<group>";
+		};
+		1269E6751D50E4B900F65CC7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1269E6761D50E4E400F65CC7 /* ServicesTableViewController.swift */,
+				1269E6781D50E4F000F65CC7 /* ServicesTableViewCell.swift */,
+				1269E67A1D50E4FC00F65CC7 /* ServicesViewController.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		1269E67C1D50F73D00F65CC7 /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				1269E67D1D50F75D00F65CC7 /* PortfolioCollectionViewController.swift */,
+				1269E67F1D50F76E00F65CC7 /* PortfolioCollectionViewCell.swift */,
+			);
+			name = Portfolio;
+			sourceTree = "<group>";
+		};
+		12C0728B1D51089E00C09CA4 /* ContactUs */ = {
+			isa = PBXGroup;
+			children = (
+				12C0728C1D5108B500C09CA4 /* ContactUsViewController.swift */,
+				127E56651DBA696F008C028C /* EmailViewController.swift */,
+			);
+			name = ContactUs;
+			sourceTree = "<group>";
+		};
+		12C0728E1D51090E00C09CA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12C072931D51114300C09CA4 /* MessageUI.framework */,
+				12C0728F1D51090E00C09CA4 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12C072951D521AB800C09CA4 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				12C072961D521ACC00C09CA4 /* SocialTableViewController.swift */,
+				12C072981D521AD800C09CA4 /* SocialTableViewCell.swift */,
+				12C0729A1D521AE700C09CA4 /* SocialViewController.swift */,
+			);
+			name = Social;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,7 +177,7 @@
 				TargetAttributes = {
 					1269E65D1D50C60D00F65CC7 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = GR8YTJP3JY;
+						DevelopmentTeam = 6EPR9L98WL;
 						DevelopmentTeamName = "aaron caines";
 						ProvisioningStyle = Automatic;
 					};
@@ -141,9 +219,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1269E67B1D50E4FC00F65CC7 /* ServicesViewController.swift in Sources */,
+				1269E6791D50E4F000F65CC7 /* ServicesTableViewCell.swift in Sources */,
+				12C0729B1D521AE700C09CA4 /* SocialViewController.swift in Sources */,
 				1269E6661D50C60D00F65CC7 /* SecondViewController.swift in Sources */,
+				1269E6801D50F76E00F65CC7 /* PortfolioCollectionViewCell.swift in Sources */,
+				1269E67E1D50F75D00F65CC7 /* PortfolioCollectionViewController.swift in Sources */,
+				127E56661DBA696F008C028C /* EmailViewController.swift in Sources */,
+				1269E6771D50E4E400F65CC7 /* ServicesTableViewController.swift in Sources */,
 				1269E6621D50C60D00F65CC7 /* AppDelegate.swift in Sources */,
 				1269E6641D50C60D00F65CC7 /* FirstViewController.swift in Sources */,
+				12C0728D1D5108B500C09CA4 /* ContactUsViewController.swift in Sources */,
+				12C072971D521ACC00C09CA4 /* SocialTableViewController.swift in Sources */,
+				12C072991D521AD800C09CA4 /* SocialTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EPR9L98WL;
 				INFOPLIST_FILE = BusinessApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemondevelopment.BusinessApplication;
@@ -272,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6EPR9L98WL;
 				INFOPLIST_FILE = BusinessApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.geekylemondevelopment.BusinessApplication;
@@ -299,6 +389,7 @@
 				1269E6741D50C60D00F65CC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
